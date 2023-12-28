@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#game{
+    height: 600px;
+    width: 400px;
+    border: 1px solid black;
+    margin: auto;
+    background: url(Assets/highway2.png);
+    background-size: 400px;
+}
+#policecar{
+    height: 100px;
+    width: 130px;
+    background-color: none;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    animation: move 2s linear infinite;
+    overflow: hidden;
+}
+#policecar img{
+    height: 100px;
+}
+@keyframes move{
+    0%{
+        top:0px;
+    }
+    100%{
+        top:600px;
+    }
+}
+#playercar{
+    height: 100px;
+    width: 130px;
+    background-color: none;
+    position: relative;
+    top: 350px;
+    left: 130px;
+    text-align: center;
+}
+#playercar img{
+    height: 100px;
+}
+#result{
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    background-color: rgb(255,251,0);
+    margin: 1rem auto;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255,0,0);
+    display:none;
+}
+#score{
+    font-size: 2.3rem;
+    color: rgb(17,0,255);
+}
+#btn{
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: cyan;
+    font-size: 25px;
+    margin-top: 10px;
+    cursor:pointer;
+    text-transform: uppercase;
+}
