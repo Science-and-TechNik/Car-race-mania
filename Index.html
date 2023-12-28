@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Race Mania</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <div id="policecar"><img src="Assets/policecar.png" alt=""></div>
+        <div id="playercar"><img src="Assets/playercar.png" alt=""></div>
+    </div>
+    <div id="result">
+        <h1>Game Over</h1>
+        <p id="score"></p>
+        <button id="btn" onclick="location.reload()">Restart</button>
+    </div>
+    <audio src="Assets/whoosh.mp3" id="whoosh"></audio>
+    <audio src="Assets/carrunningsound.mp3" id="carrunningsound"></audio>
+    <audio src="Assets/gamesound.mp3" id="gamesound"></audio>
+    <audio src="Assets/gameoversound.mp3" id="gameoversound"></audio>
+    <audio src="Assets/crash.mp3" id="crash"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
